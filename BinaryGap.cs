@@ -13,7 +13,7 @@ namespace ConsoleApplication46
             int result = 0;
 
             string c = Convert.ToString(N, 2);
-            c += "1";
+            // c += "1";   // just for maximal number of zeros
             Console.WriteLine(c);
            
             int d = 0;
